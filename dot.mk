@@ -18,9 +18,12 @@
 $(call inherit-product, device/samsung/hltechn/full_hlte.mk)
 
 # Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common.mk)
+
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hltechn
-PRODUCT_NAME := aosip_hltechn
+PRODUCT_NAME := dot_hltechn
 
