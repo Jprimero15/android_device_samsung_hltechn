@@ -15,15 +15,17 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/samsung/hltechn/full_hlte.mk)
+# Inherit from hltechn device
+$(call inherit-product
+, device/samsung/hltechn/full_hlte.mk)
 
-# Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hltechn
-PRODUCT_NAME := dot_hltechn
+PRODUCT_NAME := aosp_hltechn
 
