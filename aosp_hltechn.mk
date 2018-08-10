@@ -16,8 +16,7 @@
 #
 
 # Inherit from hltechn device
-$(call inherit-product
-, device/samsung/hltechn/full_hlte.mk)
+$(call inherit-product, device/samsung/hltechn/full_hlte.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/common.mk)
