@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_hlte.mk \
-    $(LOCAL_DIR)/aosp_hltechn.mk
+    $(LOCAL_DIR)/arrow_hltechn.mk
