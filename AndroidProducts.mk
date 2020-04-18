@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_hltechn.mk
+    $(LOCAL_DIR)/xtended_hltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_hltechn-user \
-    havoc_hltechn-userdebug \
-    havoc_hltechn-eng
+    xtended_hltechn-user \
+    xtended_hltechn-userdebug \
+    xtended_hltechn-eng
